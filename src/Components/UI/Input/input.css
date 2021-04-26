@@ -1,0 +1,40 @@
+.search-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.search-button {
+  height: 32px;
+  width: 32px;
+  top: 9px;
+  right: 10px;
+  position: absolute;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #282c34;
+  transition: all 0.3s linear;
+}
+
+.search-button:hover {
+  background-color: rebeccapurple;
+  transition: all 0.3s linear;
+}
+
+.search-button:active {
+  background-color: red;
+  transition: all 0.1s linear;
+  transform: scale(1.2);
+}
+
+.search-input {
+  height: 50px;
+  width: 300px;
+  padding-left: 16px;
+  padding-right: 54px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}

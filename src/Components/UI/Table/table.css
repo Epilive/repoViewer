@@ -1,0 +1,111 @@
+.table-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f5d516;
+}
+
+.head-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.table-cell-name {
+  display: flex;
+  flex: 3;
+  flex-direction: row;
+  text-align: center;
+  border: 1px solid #f5d516;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-cell-owner {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  border: 1px solid #f5d516;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-cell-rating {
+  display: flex;
+  flex: 0.5;
+  text-align: center;
+  border: 1px solid #f5d516;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-cell-link {
+  display: flex;
+  flex: 0.5;
+  text-align: center;
+  border: 1px solid #f5d516;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.current-page {
+  background-color: #f5d516;
+}
+
+.table-input {
+  width: 100%;
+  height: 55px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  min-width: 50px;
+  margin: 5px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  font-size: 40px;
+  transition: all 0.3s linear;
+}
+
+.add-button:hover {
+  background-color: #f5d516;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.add-button:active {
+  background-color: #f59c16;
+  color: white;
+  font-size: 48px;
+
+  transition: all 0.1s linear;
+  transform: scale(1.2);
+}
